@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tickets Application</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/5a010fa73c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav>
+	<div class="buttons">
+		<div class="bg-selector">
+			<button class="bg-col" value="#2ecc71"></button>
+			<button class="bg-col" value="#e74c3c"></button>
+			<button class="bg-col" value="#d35400"></button>
+			<button class="bg-col" value="oldlace"></button>
+		</div>
+		<div class="mode-selector">
+			<label for="add">
+				<i class="fa-solid fa-plus"></i>
+				<input type="radio" name="mode" id="add">
+			</label>
+			<label for="del">
+				<i class="fa-solid fa-trash"></i>
+				<input type="radio" name="mode" id="del">
+			</label>
+		</div>
+	</div>
+	<div class="name">
+		<h1>TICKET GENERATOR</h1>
+	</div>
+</nav>
+
+<main></main>
+
+<div id="add-win">
+	<label for="ticket-t">
+		<textarea name="ticket-t" id="ticket-t"></textarea>
+	</label>
+	<div class="col-sel">
+		<div class="colours">
+			<button class="col" id="col-r" style="background-color: #f1c40f" value="#f1c40f"></button>
+			<button class="col" id="col-b" style="background-color: #1abc9c" value="#1abc9c"></button>
+			<button class="col" id="col-g" style="background-color: #9b59b6" value="#9b59b6"></button>
+			<button class="col" id="col-p" style="background-color: #2c3e50" value="#2c3e50"></button>
+		</div>
+	</div>
+</div>
+
+
+<footer>
+	&copy; Aryan Upadhyay 2022
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
